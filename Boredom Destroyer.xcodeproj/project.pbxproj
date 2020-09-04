@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F863CC3D2501E89700FBF6B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC3C2501E89700FBF6B6 /* AppDelegate.swift */; };
+		F863CC3F2501E89700FBF6B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC3E2501E89700FBF6B6 /* SceneDelegate.swift */; };
+		F863CC412501E89700FBF6B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC402501E89700FBF6B6 /* ViewController.swift */; };
+		F863CC442501E89700FBF6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F863CC422501E89700FBF6B6 /* Main.storyboard */; };
+		F863CC462501E89800FBF6B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F863CC452501E89800FBF6B6 /* Assets.xcassets */; };
+		F863CC492501E89800FBF6B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F863CC472501E89800FBF6B6 /* LaunchScreen.storyboard */; };
+		F863CC542501E89800FBF6B6 /* Boredom_DestroyerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC532501E89800FBF6B6 /* Boredom_DestroyerTests.swift */; };
+		F863CC5F2501E89800FBF6B6 /* Boredom_DestroyerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC5E2501E89800FBF6B6 /* Boredom_DestroyerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F863CC502501E89800FBF6B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F863CC312501E89700FBF6B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F863CC382501E89700FBF6B6;
+			remoteInfo = "Boredom Destroyer";
+		};
+		F863CC5B2501E89800FBF6B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F863CC312501E89700FBF6B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F863CC382501E89700FBF6B6;
+			remoteInfo = "Boredom Destroyer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F863CC392501E89700FBF6B6 /* Boredom Destroyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boredom Destroyer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F863CC3C2501E89700FBF6B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F863CC3E2501E89700FBF6B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F863CC402501E89700FBF6B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F863CC432501E89700FBF6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F863CC452501E89800FBF6B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F863CC482501E89800FBF6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F863CC4A2501E89800FBF6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F863CC4F2501E89800FBF6B6 /* Boredom DestroyerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boredom DestroyerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F863CC532501E89800FBF6B6 /* Boredom_DestroyerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boredom_DestroyerTests.swift; sourceTree = "<group>"; };
+		F863CC552501E89800FBF6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F863CC5A2501E89800FBF6B6 /* Boredom DestroyerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boredom DestroyerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F863CC5E2501E89800FBF6B6 /* Boredom_DestroyerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boredom_DestroyerUITests.swift; sourceTree = "<group>"; };
+		F863CC602501E89800FBF6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F863CC362501E89700FBF6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F863CC4C2501E89800FBF6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F863CC572501E89800FBF6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F863CC302501E89700FBF6B6 = {
+			isa = PBXGroup;
+			children = (
+				F863CC3B2501E89700FBF6B6 /* Boredom Destroyer */,
+				F863CC522501E89800FBF6B6 /* Boredom DestroyerTests */,
+				F863CC5D2501E89800FBF6B6 /* Boredom DestroyerUITests */,
+				F863CC3A2501E89700FBF6B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F863CC3A2501E89700FBF6B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F863CC392501E89700FBF6B6 /* Boredom Destroyer.app */,
+				F863CC4F2501E89800FBF6B6 /* Boredom DestroyerTests.xctest */,
+				F863CC5A2501E89800FBF6B6 /* Boredom DestroyerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F863CC3B2501E89700FBF6B6 /* Boredom Destroyer */ = {
+			isa = PBXGroup;
+			children = (
+				F863CC3C2501E89700FBF6B6 /* AppDelegate.swift */,
+				F863CC3E2501E89700FBF6B6 /* SceneDelegate.swift */,
+				F863CC402501E89700FBF6B6 /* ViewController.swift */,
+				F863CC422501E89700FBF6B6 /* Main.storyboard */,
+				F863CC452501E89800FBF6B6 /* Assets.xcassets */,
+				F863CC472501E89800FBF6B6 /* LaunchScreen.storyboard */,
+				F863CC4A2501E89800FBF6B6 /* Info.plist */,
+			);
+			path = "Boredom Destroyer";
+			sourceTree = "<group>";
+		};
+		F863CC522501E89800FBF6B6 /* Boredom DestroyerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F863CC532501E89800FBF6B6 /* Boredom_DestroyerTests.swift */,
+				F863CC552501E89800FBF6B6 /* Info.plist */,
+			);
+			path = "Boredom DestroyerTests";
+			sourceTree = "<group>";
+		};
+		F863CC5D2501E89800FBF6B6 /* Boredom DestroyerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F863CC5E2501E89800FBF6B6 /* Boredom_DestroyerUITests.swift */,
+				F863CC602501E89800FBF6B6 /* Info.plist */,
+			);
+			path = "Boredom DestroyerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F863CC382501E89700FBF6B6 /* Boredom Destroyer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F863CC632501E89800FBF6B6 /* Build configuration list for PBXNativeTarget "Boredom Destroyer" */;
+			buildPhases = (
+				F863CC352501E89700FBF6B6 /* Sources */,
+				F863CC362501E89700FBF6B6 /* Frameworks */,
+				F863CC372501E89700FBF6B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boredom Destroyer";
+			productName = "Boredom Destroyer";
+			productReference = F863CC392501E89700FBF6B6 /* Boredom Destroyer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F863CC4E2501E89800FBF6B6 /* Boredom DestroyerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F863CC662501E89800FBF6B6 /* Build configuration list for PBXNativeTarget "Boredom DestroyerTests" */;
+			buildPhases = (
+				F863CC4B2501E89800FBF6B6 /* Sources */,
+				F863CC4C2501E89800FBF6B6 /* Frameworks */,
+				F863CC4D2501E89800FBF6B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F863CC512501E89800FBF6B6 /* PBXTargetDependency */,
+			);
+			name = "Boredom DestroyerTests";
+			productName = "Boredom DestroyerTests";
+			productReference = F863CC4F2501E89800FBF6B6 /* Boredom DestroyerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F863CC592501E89800FBF6B6 /* Boredom DestroyerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F863CC692501E89800FBF6B6 /* Build configuration list for PBXNativeTarget "Boredom DestroyerUITests" */;
+			buildPhases = (
+				F863CC562501E89800FBF6B6 /* Sources */,
+				F863CC572501E89800FBF6B6 /* Frameworks */,
+				F863CC582501E89800FBF6B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F863CC5C2501E89800FBF6B6 /* PBXTargetDependency */,
+			);
+			name = "Boredom DestroyerUITests";
+			productName = "Boredom DestroyerUITests";
+			productReference = F863CC5A2501E89800FBF6B6 /* Boredom DestroyerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F863CC312501E89700FBF6B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Evan Kwak";
+				TargetAttributes = {
+					F863CC382501E89700FBF6B6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					F863CC4E2501E89800FBF6B6 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F863CC382501E89700FBF6B6;
+					};
+					F863CC592501E89800FBF6B6 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F863CC382501E89700FBF6B6;
+					};
+				};
+			};
+			buildConfigurationList = F863CC342501E89700FBF6B6 /* Build configuration list for PBXProject "Boredom Destroyer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F863CC302501E89700FBF6B6;
+			productRefGroup = F863CC3A2501E89700FBF6B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F863CC382501E89700FBF6B6 /* Boredom Destroyer */,
+				F863CC4E2501E89800FBF6B6 /* Boredom DestroyerTests */,
+				F863CC592501E89800FBF6B6 /* Boredom DestroyerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F863CC372501E89700FBF6B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F863CC492501E89800FBF6B6 /* LaunchScreen.storyboard in Resources */,
+				F863CC462501E89800FBF6B6 /* Assets.xcassets in Resources */,
+				F863CC442501E89700FBF6B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F863CC4D2501E89800FBF6B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F863CC582501E89800FBF6B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F863CC352501E89700FBF6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F863CC412501E89700FBF6B6 /* ViewController.swift in Sources */,
+				F863CC3D2501E89700FBF6B6 /* AppDelegate.swift in Sources */,
+				F863CC3F2501E89700FBF6B6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F863CC4B2501E89800FBF6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F863CC542501E89800FBF6B6 /* Boredom_DestroyerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F863CC562501E89800FBF6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F863CC5F2501E89800FBF6B6 /* Boredom_DestroyerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F863CC512501E89800FBF6B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F863CC382501E89700FBF6B6 /* Boredom Destroyer */;
+			targetProxy = F863CC502501E89800FBF6B6 /* PBXContainerItemProxy */;
+		};
+		F863CC5C2501E89800FBF6B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F863CC382501E89700FBF6B6 /* Boredom Destroyer */;
+			targetProxy = F863CC5B2501E89800FBF6B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F863CC422501E89700FBF6B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F863CC432501E89700FBF6B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F863CC472501E89800FBF6B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F863CC482501E89800FBF6B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F863CC612501E89800FBF6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F863CC622501E89800FBF6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F863CC642501E89800FBF6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BD8W3VKUSL;
+				INFOPLIST_FILE = "Boredom Destroyer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwakwerd.Boredom-Destroyer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F863CC652501E89800FBF6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BD8W3VKUSL;
+				INFOPLIST_FILE = "Boredom Destroyer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwakwerd.Boredom-Destroyer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F863CC672501E89800FBF6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BD8W3VKUSL;
+				INFOPLIST_FILE = "Boredom DestroyerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwakwerd.Boredom-DestroyerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boredom Destroyer.app/Boredom Destroyer";
+			};
+			name = Debug;
+		};
+		F863CC682501E89800FBF6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BD8W3VKUSL;
+				INFOPLIST_FILE = "Boredom DestroyerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwakwerd.Boredom-DestroyerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boredom Destroyer.app/Boredom Destroyer";
+			};
+			name = Release;
+		};
+		F863CC6A2501E89800FBF6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BD8W3VKUSL;
+				INFOPLIST_FILE = "Boredom DestroyerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwakwerd.Boredom-DestroyerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Boredom Destroyer";
+			};
+			name = Debug;
+		};
+		F863CC6B2501E89800FBF6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BD8W3VKUSL;
+				INFOPLIST_FILE = "Boredom DestroyerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwakwerd.Boredom-DestroyerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Boredom Destroyer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F863CC342501E89700FBF6B6 /* Build configuration list for PBXProject "Boredom Destroyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F863CC612501E89800FBF6B6 /* Debug */,
+				F863CC622501E89800FBF6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F863CC632501E89800FBF6B6 /* Build configuration list for PBXNativeTarget "Boredom Destroyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F863CC642501E89800FBF6B6 /* Debug */,
+				F863CC652501E89800FBF6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F863CC662501E89800FBF6B6 /* Build configuration list for PBXNativeTarget "Boredom DestroyerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F863CC672501E89800FBF6B6 /* Debug */,
+				F863CC682501E89800FBF6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F863CC692501E89800FBF6B6 /* Build configuration list for PBXNativeTarget "Boredom DestroyerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F863CC6A2501E89800FBF6B6 /* Debug */,
+				F863CC6B2501E89800FBF6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F863CC312501E89700FBF6B6 /* Project object */;
+}
