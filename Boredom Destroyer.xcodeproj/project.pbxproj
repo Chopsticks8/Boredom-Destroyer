@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F82D87982502F01B00A9FC6B /* drawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D87972502F01B00A9FC6B /* drawViewController.swift */; };
+		F82D879A2502F09E00A9FC6B /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D87992502F09E00A9FC6B /* Line.swift */; };
 		F863CC3D2501E89700FBF6B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC3C2501E89700FBF6B6 /* AppDelegate.swift */; };
 		F863CC3F2501E89700FBF6B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC3E2501E89700FBF6B6 /* SceneDelegate.swift */; };
 		F863CC412501E89700FBF6B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC402501E89700FBF6B6 /* ViewController.swift */; };
@@ -15,6 +17,9 @@
 		F863CC492501E89800FBF6B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F863CC472501E89800FBF6B6 /* LaunchScreen.storyboard */; };
 		F863CC542501E89800FBF6B6 /* Boredom_DestroyerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC532501E89800FBF6B6 /* Boredom_DestroyerTests.swift */; };
 		F863CC5F2501E89800FBF6B6 /* Boredom_DestroyerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC5E2501E89800FBF6B6 /* Boredom_DestroyerUITests.swift */; };
+		F863CC6D250202CB00FBF6B6 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC6C250202CB00FBF6B6 /* menuViewController.swift */; };
+		F863CC6F250202E300FBF6B6 /* gameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC6E250202E300FBF6B6 /* gameViewController.swift */; };
+		F863CC71250202FA00FBF6B6 /* socialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863CC70250202FA00FBF6B6 /* socialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F82D87972502F01B00A9FC6B /* drawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drawViewController.swift; sourceTree = "<group>"; };
+		F82D87992502F09E00A9FC6B /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		F863CC392501E89700FBF6B6 /* Boredom Destroyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boredom Destroyer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F863CC3C2501E89700FBF6B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F863CC3E2501E89700FBF6B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		F863CC5A2501E89800FBF6B6 /* Boredom DestroyerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boredom DestroyerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F863CC5E2501E89800FBF6B6 /* Boredom_DestroyerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boredom_DestroyerUITests.swift; sourceTree = "<group>"; };
 		F863CC602501E89800FBF6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F863CC6C250202CB00FBF6B6 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		F863CC6E250202E300FBF6B6 /* gameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameViewController.swift; sourceTree = "<group>"; };
+		F863CC70250202FA00FBF6B6 /* socialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F82D878E2502EB2C00A9FC6B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F863CC302501E89700FBF6B6 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +116,7 @@
 		F863CC3B2501E89700FBF6B6 /* Boredom Destroyer */ = {
 			isa = PBXGroup;
 			children = (
+				F82D878E2502EB2C00A9FC6B /* Models */,
 				F863CC3C2501E89700FBF6B6 /* AppDelegate.swift */,
 				F863CC3E2501E89700FBF6B6 /* SceneDelegate.swift */,
 				F863CC402501E89700FBF6B6 /* ViewController.swift */,
@@ -106,6 +124,11 @@
 				F863CC452501E89800FBF6B6 /* Assets.xcassets */,
 				F863CC472501E89800FBF6B6 /* LaunchScreen.storyboard */,
 				F863CC4A2501E89800FBF6B6 /* Info.plist */,
+				F863CC6C250202CB00FBF6B6 /* menuViewController.swift */,
+				F863CC6E250202E300FBF6B6 /* gameViewController.swift */,
+				F863CC70250202FA00FBF6B6 /* socialViewController.swift */,
+				F82D87972502F01B00A9FC6B /* drawViewController.swift */,
+				F82D87992502F09E00A9FC6B /* Line.swift */,
 			);
 			path = "Boredom Destroyer";
 			sourceTree = "<group>";
@@ -262,6 +285,11 @@
 				F863CC412501E89700FBF6B6 /* ViewController.swift in Sources */,
 				F863CC3D2501E89700FBF6B6 /* AppDelegate.swift in Sources */,
 				F863CC3F2501E89700FBF6B6 /* SceneDelegate.swift in Sources */,
+				F863CC6F250202E300FBF6B6 /* gameViewController.swift in Sources */,
+				F863CC6D250202CB00FBF6B6 /* menuViewController.swift in Sources */,
+				F82D879A2502F09E00A9FC6B /* Line.swift in Sources */,
+				F863CC71250202FA00FBF6B6 /* socialViewController.swift in Sources */,
+				F82D87982502F01B00A9FC6B /* drawViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
